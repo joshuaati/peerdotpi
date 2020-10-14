@@ -1,0 +1,49 @@
+html{
+    height: 100vh;
+}
+body {
+    background-image: linear-gradient(to bottom, #663399, #333399);
+    height: auto;
+}
+
+.main_entry {
+    background: #e0d1f0;
+    border: black solid 13px;
+    display: flex;
+    width: 40%;
+    margin: auto;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_results {
+    background: #e0d1f0;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px;
+    }
+
+.main_results td {
+    background: white;
+    border:black solid 2px;
+    border-radius: 60px;
+}
+
+.main_results p {
+    padding-bottom: 0%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
